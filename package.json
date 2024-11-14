@@ -1,0 +1,39 @@
+{
+  "name": "rxprotoplex-websocket",
+  "version": "1.0.0",
+  "description": "A lightweight library for creating Plex connections over WebSocket, enabling multiplexed communication for real-time applications.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "brittle tests/test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.7",
+    "isomorphic-ws": "^5.0.0",
+    "rxprotoplex": "^1.1.2",
+    "streamx": "^2.20.2"
+  },
+  "peerDependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "brittle": "^3.7.0",
+    "ws": "^8.18.0"
+  },
+  "keywords": [
+    "plex",
+    "multiplexing",
+    "websocket",
+    "rxjs",
+    "peer-to-peer",
+    "real-time",
+    "streaming",
+    "rxprotoplex"
+  ],
+  "author": "Zachary Griffee <zacharygriffee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zacharygriffee/rxprotoplex-websocket/issues"
+  },
+  "homepage": "https://github.com/zacharygriffee/rxprotoplex-websocket#readme"
+}

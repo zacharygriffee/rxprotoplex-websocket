@@ -1,0 +1,1 @@
+export {fromWebSocket} from "./lib/fromWebSocket.js";
