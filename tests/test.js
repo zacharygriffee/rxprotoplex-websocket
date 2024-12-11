@@ -44,6 +44,15 @@ test("basic websocket plex test", async t => {
         serverPlex.close$.next();
         server.close();
     });
-})
+});
+
+test("error on websocket propagates", async t => {
+    t.plan(1);
+    const plex = fromWebSocket("wss://localhost:12345");
+    const sub = plex.close$.subscribe({error: e => {
+        t.is(e.code, "ECONNREFUSED")
+    }});
+    t.teardown(() => sub.unsubscribe());
+});
 
 
