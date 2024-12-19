@@ -1,6 +1,6 @@
 {
   "name": "rxprotoplex-websocket",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight library for creating Plex connections over WebSocket, enabling multiplexed communication for real-time applications.",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,7 @@
   "dependencies": {
     "b4a": "^1.6.7",
     "isomorphic-ws": "^5.0.0",
-    "rxprotoplex": "^1.2.4",
+    "rxprotoplex": "^1.2.5",
     "streamx": "^2.20.2"
   },
   "peerDependencies": {
